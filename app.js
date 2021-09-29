@@ -29,6 +29,25 @@ catImg.addEventListener('click', ()=>
    catSound.play()
 )
 
+window.addEventListener('keydown', (event) => {
+     if (event.key === 'h') {
+       horseSound.play();}
+     if (event.key === 'c') {
+       catSound.play();}
+     if (event.key === 'd') {
+       dogSound.play();}
+     })
+
+
+
+ 
+
+
+
+
+
+
+
 // set event listeners 
   // get user input
   // use user input to update state 
